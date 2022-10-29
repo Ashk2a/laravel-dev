@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Modules\User\Filament\Resources;
+namespace App\Modules\User\Filament\Resources\Admin;
 
 use App\Models\User;
-use App\Modules\User\Filament\Resources\UserResource\Pages\CreateUser;
-use App\Modules\User\Filament\Resources\UserResource\Pages\EditUser;
-use App\Modules\User\Filament\Resources\UserResource\Pages\ListUsers;
+use App\Modules\User\Filament\Resources\Admin\UserResource\Pages\CreateUser;
+use App\Modules\User\Filament\Resources\Admin\UserResource\Pages\EditUser;
+use App\Modules\User\Filament\Resources\Admin\UserResource\Pages\ListUsers;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
 use Filament\Tables;
